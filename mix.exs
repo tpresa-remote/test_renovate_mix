@@ -23,9 +23,9 @@ defmodule TestRenovateMix.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-      {:hammer, "~> 6.1"},
-      {:hammer_backend_redis, "~> 6.1"},
-      {:hammer_plug, "~> 3.0"},
+      {:oban, "~> 2.15"},
+      {:oban_pro, "~> 1.0", repo: "oban"},
+      {:oban_web, "~> 2.9", repo: "oban"},
     ]
   end
 end
